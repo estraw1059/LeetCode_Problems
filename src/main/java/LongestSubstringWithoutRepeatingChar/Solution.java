@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Solution {
-    //Solution to: https://leetcode.com/problems/longest-substring-without-repeating-characters
+    //Solution.java to: https://leetcode.com/problems/longest-substring-without-repeating-characters
     public int lengthOfLongestSubstring(String s) {
         Set<Character> set=new HashSet<>();
         int left = 0;
